@@ -1,0 +1,49 @@
+html{
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.smallerhead{
+    font-size: 1.3em;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.sticky{
+    border: solid 1px black;
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+.information .About{
+    margin-right: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.information .History{
+    margin-left: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
