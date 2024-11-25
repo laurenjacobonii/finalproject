@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">   
+    <title>Reservations</title>
 </head>
-<body>
-    
+<body class="reservebody">
+    <header class="newheader">
+        <section class="sec1">
+            <div class="container1">
+                <div class="headcontainer">
+                    <img src="images/logoundo.png" alt="Jacoboni's Plates">
+                </div>
+                <div class="nav-container">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="reserve.html">Reservations</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="banner">
+        <h1>Reserve Your Table Now</h1>       
+        <p class="smalltitle">Experience the flavors of Italy with family and friends. Reserve your spot today to enjoy a memorable dining experience inspired by Nonna Jacoboni.</p>
+        <div class="reservationcontent">
+            <h3>Reservations</h3>
+            <form>
+                <div class="form-row">
+                    <select name="day">
+                        <option value="day-select">Select Day</option>
+                        <option value="sunday">Sunday</option>
+                        <option value="monday">Monday</option>
+                        <option value="tuesday">Tuesday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="thursday">Thursday</option>
+                        <option value="friday">Friday</option>
+                        <option value="saturday">Saturday</option>
+                    </select>
+                    <select name="hours">
+                        <option value="hour-select">Select Hour</option>
+                        <option value="4">4:00PM</option>
+                        <option value="430">4:30PM</option>
+                        <option value="5">5:00PM</option>
+                        <option value="530">5:30PM</option>
+                        <option value="6">6:00PM</option>
+                        <option value="630">6:30PM</option>
+                        <option value="7">7:00PM</option>
+                        <option value="730">7:30PM</option>
+                        <option value="8">8:00PM</option>
+                        <option value="830">8:00PM</option>
+                        <option value="9">9:00PM</option>
+                        <option value="930">9:00PM</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="form-row">
+                    <input type="number" placeholder="How Many Persons?" min="1">
+                    <input type="submit" value="Book Table!">
+                </div>
+            </form>
+        </div>
+        <p>*Resevations are only avaliable from 4:00PM to 9:00PM.</p>
+    </section>
+
+
 </body>
 </html>
